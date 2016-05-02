@@ -29,7 +29,7 @@ $(document).ready(function () {
       var $el = $('#container').children().last();
       $('#container').data('empSal', individualMonthlySalary);
 
-      $el.append('<p> Employee Name:' + empInfo.employeeFirstName + ' ' + empInfo.employeeLastName + '</p>' + '<p> Employee ID: ' + empInfo.employeeID + '</p>' + '<p> Job Title: ' + empInfo.jobTitle + '</p>' + '<p> Annual Salary: ' + empInfo.annualSalary + '</p>' + '<p> Overall Monthly Salaries (Company-Wide): ' + totalMonthlySalaries + '</p>' + '<p class = "individualSal"> Individual Monthly Salary: ' + individualMonthlySalary + '</p>' + '<button type="button" class="delete" name="delete">Delete Info</button>');
+      $el.append('<p> Employee Name: ' + empInfo.employeeFirstName + ' ' + empInfo.employeeLastName + '</p>' + '<p> Employee ID: ' + empInfo.employeeID + '</p>' + '<p> Job Title: ' + empInfo.jobTitle + '</p>' + '<p> Annual Salary: ' + empInfo.annualSalary + '</p>' + '<p> Overall Monthly Salaries (Company-Wide): ' + totalMonthlySalaries + '</p>' + '<p class = "individualSal"> Individual Monthly Salary: ' + individualMonthlySalary + '</p>' + '<button type="button" class="delete" name="delete">Delete Info</button>');
     }
 
   });
